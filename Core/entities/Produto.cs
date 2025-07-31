@@ -6,8 +6,6 @@ public class Produto
     public required string Nome { get; set; }
     public decimal Preco { get; set; }
     public int Quantidade { get; set; }
-
-    // Relações (adicionar essas propriedades)
     public required string FeiranteId { get; set; }
     public Feirante? Feirante { get; set; }
 

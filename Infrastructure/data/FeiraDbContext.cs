@@ -1,4 +1,4 @@
-using Core.Entities;  // Adicione esta linha no topo do arquivo
+using Core.Entities; 
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data;

@@ -38,8 +38,6 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger";
 });
 
- // QUando for usar https tenho de remover isso
-// app.UseHttpsRedirection();
 
 app.UseCors(MyAllowSpecificOrigins);
 
